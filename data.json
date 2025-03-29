@@ -1,0 +1,16 @@
+{
+    "termine": [
+        {
+            "title": "Klausur Informatik (Voreingestellt)",
+            "date": "24.02.2025",
+            "time": "9:00",
+            "description": "Raum 123"
+        },
+        {
+            "title": "Probeklausur Mathematik (Voreingestellt)",
+            "date": "01.05.2025",
+            "time": "10:30",
+            "description": "Raum 456"
+        }
+    ]
+}
