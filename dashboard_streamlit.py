@@ -81,7 +81,7 @@ with col_rechts:
                             termin_verwaltung.remove_termin_by_index(idx)
                             data_manager.save_termine(termin_verwaltung)
                             st.success("✅ Termin erfolgreich gelöscht.")
-                            st.experimental_rerun()
+                            st.rerun()
 
 
 
