@@ -64,7 +64,7 @@ with col_rechts:
                 termin_verwaltung.add_termin(neuer_termin)
                 data_manager.save_termine(termin_verwaltung)
                 st.success("✅ Termin erfolgreich hinzugefügt.")
-                st.experimental_rerun()
+                st.rerun()
     
     with st.expander("🗑️ Termin entfernen"):
         if termin_verwaltung.termine:
