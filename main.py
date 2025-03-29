@@ -31,5 +31,3 @@ def setup_dashboard_data():
     notendurschnitt = Notendurchschnitt.with_default_data()
 
     return termin_verwaltung, studienfortschritt, notendurschnitt, chatbot, data_manager
-
-
