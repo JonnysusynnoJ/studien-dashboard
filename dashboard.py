@@ -16,16 +16,3 @@ class Dashboard:
         self.notendurschnitt = notendurschnitt
         self.data_manager = data_manager
     
-    def display_dashboard(self):
-        '''Zeigt das Dashboard an. '''
-    
-        print(f"Willkommen im Studien Dashboard! {self.user_name}")
-        print(f"Heute ist der {self.current_date}")
-        print("\n Folgende Termine sind vorhanden:")
-        for termin in self.termin_verwaltung.termine:
-            print(termin)
-        print("\nStudienfortschritt:")
-        print(self.studienfortschritt)
-        print("\nNotendurchschnitt:")
-        print(f"Aktueller Durchschnitt: {self.notendurschnitt.current_average}")
-        print(self.notendurschnitt.compare_with_target())
