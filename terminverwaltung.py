@@ -11,10 +11,6 @@ class Terminverwaltung:
     def __init__(self):
         self.termine: List[Termin] = []
 
-    def add_termin(self, termin: Termin) -> None:
-        '''Fügt einen neuen Termin zur Liste hinzu'''
-        self.termine.append(termin)
-    
     def get_all_termine(self) -> List[Termin]:
         '''Gibt alle gespeicherten Termine zurück'''
         return self.termine
