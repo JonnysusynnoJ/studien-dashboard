@@ -20,19 +20,11 @@ class Notendurchschnitt:
         return round(total / len(self.grades), 2)
 
     def compare_with_target(self) -> str:
-        '''Vergleicht den Durchschnitt mir dem Zielwert.'''
+        '''Vergleicht den Durchschnitt mit dem Zielwert.'''
         if self.current_average <= self.target_average:
             return "Ziel erreicht ☑️"
         else: 
             return "Ziel noch nicht erreich ❌"
-        
-    def display_grades(self) -> None: 
-        '''Zeigt alle Noten formatiert an.'''
-        if not self.grades:
-            print("Keine Noten vorhande.")
-        else: 
-            for grade in self.grades:
-                print(grade)
 
     @classmethod
     def with_default_data(cls) -> "Notendurchschnitt":
