@@ -1,4 +1,3 @@
-from dashboard import Dashboard
 from terminverwaltung import Terminverwaltung
 from termin import Termin
 from chatbot import Chatbot
